@@ -1,0 +1,5 @@
+{
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "/smart_contracts/node_modules",
+  "solidity.defaultCompiler": "remote"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "nftcontracts",
+  "version": "1.0.0",
+  "description": "NFT contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx hardhat run scripts/nftToken.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarbunny1996/NftContracts.git"
+  },
+  "author": "sathish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumarbunny1996/NftContracts/issues"
+  },
+  "homepage": "https://github.com/kumarbunny1996/NftContracts#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "bs58": "^4.0.1",
+    "dotenv": "^16.0.0"
+  }
+}
